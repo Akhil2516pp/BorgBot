@@ -11,8 +11,8 @@ print("""Please go-to my.telegram.org
 Login using your Telegram account
 Click on API Development Tools
 Create a new application, by entering the required details""")
-APP_ID = int(input("Enter APP ID here: "))
-API_HASH = input("Enter API HASH here: ")
+APP_ID = int(input("2263285"))
+API_HASH = input("46f96dd908137eb5a8411d468a327957")
 
 with TelegramClient(StringSession(), APP_ID, API_HASH) as client:
     print(client.session.save())
